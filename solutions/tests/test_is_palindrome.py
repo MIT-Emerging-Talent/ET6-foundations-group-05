@@ -9,7 +9,7 @@ Created on XX XX XX
 
 import unittest
 
-from is_palindrome import is_palindrome
+from ..is_palindrome import is_palindrome
 
 
 class TestIsPalindrome(unittest.TestCase):
