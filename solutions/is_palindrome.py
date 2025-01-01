@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 A module for checking if an integer is a palindrome.
-
+git
 Module contents:
     - is_palindrome: determines whether a given integer is a palindrome.
 
-Created on XX XX XX
+Created on 01 01 2025
 @author: Muhammet Isik
 """
 
