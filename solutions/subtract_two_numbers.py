@@ -1,45 +1,45 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-A module for subtracting two integers.
+# python3
+# coding
+"""creating on 01 03 2025
+@author Geehan Ali + ChatGPT _phind"""
 
-Module contents:
-    - subtract_two_numbers: Subtracts two integers and returns their difference.
-
-Created on 2025-01-01
-Author: Geehan Ali
-"""
+from typing import Union
 
 
-def subtract_two_numbers(a: int, b: int) -> int:
+def subtract_two_numbers(
+    a: Union[int, float], b: Union[int, float]
+) -> Union[int, float]:
     """
-    Subtracts two integers and returns their difference.
+    Subtract two numbers and return the difference.
 
-    Parameters:
-        a (int): The first integer.
-        b (int): The second integer.
+    Args:
+        a (Union[int, float]): The first number to subtract.
+        b (Union[int, float]): The second number to subtract.
 
     Returns:
-        int: The difference between a and b.
-
-    Raises:
-        TypeError: If either a or b is not an integer.
+        Union[int, float]: The difference between a and b.
 
     Examples:
-        >>> subtract_two_numbers(10, 3)
-        7
-        >>> subtract_two_numbers(-5, 5)
-        -10
-        >>> subtract_two_numbers(0, -5)
-        5
-        >>> subtract_two_numbers(100, 0)
-        100
-        >>> subtract_two_numbers(-10, -20)
-        10
-    """
-    # Ensure inputs are integers
-    if not isinstance(a, int) or not isinstance(b, int):
-        raise TypeError("Both inputs must be integers.")
+        >>> subtract_two_numbers(5, 4)
+        1
+        >>> subtract_two_numbers(10, 2.5)
+        7.5
+        >>> subtract_two_numbers(-10, 10)
+        -20
+        >>> subtract_two_numbers(-12.5, -4)
+        -8.5
+        >>> subtract_two_numbers(-5.5, 2)
+        -7.5
+        >>> subtract_two_numbers(-5.5, -4.5)
+        -1
 
-    # Return the subtraction result
+    Raises:
+        TypeError: If either a or b is not a number (int or float).
+
+    """
+    assert isinstance(a, (int, float)), "First argument must be a number (int or float)"
+    assert isinstance(
+        b, (int, float)
+    ), "Second argument must be a number (int or float)"
+
     return a - b
