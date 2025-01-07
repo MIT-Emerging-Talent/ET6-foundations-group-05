@@ -35,11 +35,9 @@ def subtract_two_numbers(
 
     Raises:
         TypeError: If either a or b is not a number (int or float).
-
     """
-    assert isinstance(a, (int, float)), "First argument must be a number (int or float)"
-    assert isinstance(
-        b, (int, float)
-    ), "Second argument must be a number (int or float)"
-
+    if not isinstance(a, (int, float)):
+        raise TypeError("First argument must be a number (int or float)")
+    if not isinstance(b, (int, float)):
+        raise TypeError("Second argument must be a number (int or float)")
     return a - b
