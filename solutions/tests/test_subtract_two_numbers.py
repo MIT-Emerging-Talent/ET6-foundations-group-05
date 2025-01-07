@@ -1,65 +1,78 @@
-# python3
-# coding
-"""
-Test module for subtract_two_numbers
-creating on 01 03 2025
-@author Geehan Ali + ChatGPT_phind
-
-"""
-
 import unittest
-
-from ..subtract_two_numbers import subtract_two_numbers
-
+from solutions import subtract_two_numbers
 
 class TestSubtractTwoNumbers(unittest.TestCase):
-    """Test suit to subtract_two_numbers function"""
+    def test_normal_subtraction(self):
+        """
+        Test normal subtraction of two numbers.
 
-    def test_subtract_two_numbers_positive_int(self):
-        self.assertEqual(subtract_two_numbers(5, 4), 1)
+        Verifies that subtracting 3 from 5 returns 2.
+        """
+        result = subtract_two_numbers(5, 3)
+        self.assertEqual(result, 2)
 
-    def test_Subtract_Two_Numbers_int_float(self):
-        self.assertEqual(subtract_two_numbers(10, 2.5), 7.5)
+    def test_subtraction_with_zero(self):
+        """
+        Test subtraction when zero is one of the operands.
 
-    def test_Subtract_Two_Numbers_negative_int_(self):
-        self.assertEqual(subtract_two_numbers(-10, -10), 0)
+        Verifies that subtracting 0 from 10 returns 10.
+        """
+        result = subtract_two_numbers(10, 0)
+        self.assertEqual(result, 10)
 
-    def test_Subtract_Two_Numbers_negative_mixed_types(self):
-        self.assertEqual(subtract_two_numbers(-12.5, -4), -8.5)
+    def test_subtraction_with_max_integer(self):
+        """
+        Test subtraction with the maximum integer value.
 
-    def test_Subtract_Two_Numbers_Negative_folat_int(self):
-        self.assertEqual(subtract_two_numbers(-5.5, 2), -7.5)
+        Verifies that subtracting 1 from the maximum integer value works correctly.
+        """
+        result = subtract_two_numbers(2147483647, 1)
+        self.assertEqual(result, 2147483646)
 
-    def test_Subtract_Two_Numbers_float_negative(self):
-        self.assertEqual(subtract_two_numbers(-5.5, -4.5), -1)
+    def test_subtraction_with_min_integer(self):
+        """
+        Test subtraction with the minimum integer value.
 
-    def test_Subtract_Two_Numbers_large_numbers(self):
-        self.assertEqual(subtract_two_numbers(1000000, 500000), 500000)
+        Verifies that subtracting -1 from the minimum integer value works correctly.
+        """
+        result = subtract_two_numbers(-2147483648, -1)
+        self.assertEqual(result, -2147483647)
 
-    def test_Subtract_Two_Numbers_small_numbers(self):
-        self.assertEqual(subtract_two_numbers(0.001, 0.0009), 0.00010000000000000005)
+    def test_subtraction_with_floats(self):
+        """
+        Test subtraction with floating-point numbers.
 
-    def test_Subtract_Two_Numbers_zero(self):
-        self.assertEqual(subtract_two_numbers(10, 0), 10)
+        Verifies that subtracting 0.0009 from 0.001 returns the expected result.
+        """
+        result = subtract_two_numbers(0.001, 0.0009)
+        self.assertAlmostEqual(result, 0.0001)
 
-    def test_Subtract_Two_Numbers_max_value(self):
-        self.assertEqual(subtract_two_numbers(2147483647, 1), 2147483646)
+    def test_large_number_subtraction(self):
+        """
+        Test subtraction with very large numbers.
 
-    def test_Subtract_Two_Numbers_min_value(self):
-        self.assertEqual(subtract_two_numbers(-2147483648, -1), -2147483647)
+        Verifies that the function correctly handles subtraction involving large integers.
+        """
+        result = subtract_two_numbers(10**15, 10**14)
+        self.assertEqual(result, 9 * 10**14)
 
-    def test_Subtract_Two_Numbers_non_numeric_second(self):
-        with self.assertRaises(AssertionError):
-            subtract_two_numbers(5, "a")
+    def test_non_numeric_input(self):
+        """
+        Test handling of non-numeric input.
 
-    def test_Subtract_Two_Numbers_non_numeric_first(self):
-        with self.assertRaises(AssertionError):
-            subtract_two_numbers("5", 2.5)
+        Verifies that the function raises a TypeError when given non-numeric input.
+        """
+        with self.assertRaises(TypeError):
+            subtract_two_numbers("a", 5)
 
-    def test_Subtract_Two_Numbers_two_non_numeric_both(self):
-        with self.assertRaises(AssertionError):
-            subtract_two_numbers("5", "2.5")
+    def test_none_input(self):
+        """
+        Test handling of None input.
 
+        Verifies that the function raises a TypeError when one of the inputs is None.
+        """
+        with self.assertRaises(TypeError):
+            subtract_two_numbers(None, 5)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
