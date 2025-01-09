@@ -14,21 +14,21 @@ Welcome to **_The Shining Stars_**! 👋
 
 ## **📚 About**
 
-A group brought together by our shared passion for coding, creativity,  
+A group brought together by our shared passion for coding, creativity,
 and collaboration. 🌈  
 
-We embrace challenges as opportunities to learn, grow, and innovate.  
-Our goal is to not just complete tasks but to cultivate a sense of community  
+We embrace challenges as opportunities to learn, grow, and innovate.
+Our goal is to not just complete tasks but to cultivate a sense of community
 where every member feels inspired to contribute their unique strengths.  
 
-By working together, we aim to build solutions that are both impactful  
-and meaningful. Whether tackling complex problems or brainstorming new ideas,  
+By working together, we aim to build solutions that are both impactful
+and meaningful. Whether tackling complex problems or brainstorming new ideas,
 we foster an environment of mutual support and continuous improvement. 🤝
 
-Every line of code we write reflects our commitment to excellence  
+Every line of code we write reflects our commitment to excellence
 and our belief in the power of teamwork. 💪  
 
-At **_The Shining Stars_**, we don't just code — we create, we connect,  
+At **_The Shining Stars_**, we don't just code — we create, we connect,
 and we shine brighter with every step forward. 💫  
 
 Let's keep growing, learning, and making a difference together! 🚀  
@@ -41,7 +41,7 @@ Don't forget: **Together we shine brighter.** ✨
 
 ## **🚀 Solutions**
 
-Our **[solutions](solutions/)** directory contains the challenges  
+Our **[solutions](solutions/)** directory contains the challenges
 we are solving as a team.
 Below is a list of the current solutions available:
 
@@ -53,6 +53,7 @@ Below is a list of the current solutions available:
 | [`is_prime.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/26) | Check if a number is prime.                              |
 | [`longest_substring.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/44) | Find the length of the longest substring without repeating characters. |
 | [`max_profit.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/22) | Calculate the maximum profit from buying and selling a stock. |
+| [`subtract_two_numbers.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/23) | Return the difference between two numbers. |
 
 Each solution is accompanied by test cases in the  
 **[`solutions/tests`](solutions/tests/)** folder.
@@ -61,18 +62,18 @@ Each solution is accompanied by test cases in the
 
 ## **🤝 Collaboration**
 
-The **[`collaboration`](collaboration/)** directory includes our group work  
+The **[`collaboration`](collaboration/)** directory includes our group work
 guides, retrospectives, and communication guidelines.
 
 Files include:
 
-- **[`README.md`](collaboration/README.md)** – Overview of the collaboration  
-  process  
-- **[`communication.md`](collaboration/communication.md)** – Guidelines for  
-  team communication  
-- **[`constraints.md`](collaboration/constraints.md)** – Technical and project  
-  constraints  
-- **[`learning_goals.md`](collaboration/learning_goals.md)** – Shared learning  
-  goals  
-- **[`retrospective.md`](collaboration/retrospective.md)** – Retrospective  
-  reports to improve collaboration
+- **[`README.md`](collaboration/README.md)** – Overview of the collaboration
+process  
+- **[`communication.md`](collaboration/communication.md)** – Guidelines for
+team communication  
+- **[`constraints.md`](collaboration/constraints.md)** – Technical and project
+constraints  
+- **[`learning_goals.md`](collaboration/learning_goals.md)** – Shared learning
+goals  
+- **[`retrospective.md`](collaboration/retrospective.md)** – Retrospective
+reports to improve collaboration

@@ -24,26 +24,23 @@ def is_power_of_two(n: int) -> bool:
         True if the input is a power of two, False otherwise.
 
     Raises:
-        AssertionError: if the input is not an integer or a float.
-        AssertionError: If the input number is not within the valid range (-2^31 <= n <= 2^31 - 1).
+        AssertionError:
+            If the input is not an integer or a float.
+            If the input number is not within the valid range.
 
-    >>> is_power_of_two(1)
-    True
-
-    >>> is_power_of_two(16)
-    True
-
-    >>> is_power_of_two(3)
-    False
+    Examples:
+        >>> is_power_of_two(1)
+        True
+        >>> is_power_of_two(16)
+        True
+        >>> is_power_of_two(3)
+        False
     """
-
-    # The input number should be an integer
+    # The input number should be an integer or a float
     assert isinstance(n, (int, float)), "Given number must be an integer or a float"
 
-    # The input number should be within the valid range constraint: -2^31 <= n <= 2^31 - 1
-    assert (
-        -(2**31) <= n <= 2**31 - 1
-    ), f"Input must satisfy -2^31 <= n <= 2^31 - 1, but got {n}"
+    # The input must be within the valid range constraint
+    assert -(2**31) <= n <= 2**31 - 1, f"Input must be -2^31 <= n <= 2^31 - 1, got {n}"
 
     # Negative numbers and 0 cannot be powers of two
     if n <= 0:
