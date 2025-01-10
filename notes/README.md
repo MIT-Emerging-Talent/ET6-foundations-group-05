@@ -26,6 +26,8 @@ GitHub tricks, teamwork strategies, or even fun moments.
 - Tagging team members in Pull Requests ensures that they’re aware of the
   changes and can provide feedback.
 
+[link]: https://www.conventionalcommits.org/en/v1.0.0/
+
 ## Collaboration Tips🤝
 
 - Defining responsibilities upfront can help avoid confusion about who is
@@ -46,5 +48,3 @@ GitHub tricks, teamwork strategies, or even fun moments.
 - Celebrate milestones, big or small, to keep team morale high.
 - Mistakes are part of learning — what matters is learning from them.
 - Listening to music or creating a comfortable work environment can boost productivity.
-
-[link]: https://www.conventionalcommits.org/en/v1.0.0/
