@@ -12,6 +12,9 @@ ______________________________________________________________________
 
 ## 🌿 Branch Creation and Commands for Branch Management 🌿
 
+> **🗒️Note: A Table for Frequently Used Commands**  
+> ![text](command_table.png)
+
 - To avoid risking the main branch, we will work on separate branches.
 
 > **🗒️Note: Branch Naming Tips**\
@@ -59,7 +62,11 @@ ______________________________________________________________________
 
 > **🗒️Note:** Both creation options are valid.
 
-### h) Delete branches
+### h) Pushing our changes to remote
+
+`git push origin branch_name`
+
+### i) Delete branches
 
 - Delete a local branch: `git branch -d branch_name`
 - Force delete a local branch (if changes are not merged): `git branch -D branch_name`
