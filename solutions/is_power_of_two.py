@@ -17,8 +17,8 @@ def is_power_of_two(n: int) -> bool:
 
     Parameters:
         n: int
-            An integer to check if it is a power of two.
-            Must satisfy the constraint: -2^31 <= n <= 2^31 - 1.
+        An integer to check if it is a power of two.
+        Must satisfy the constraint: -2^31 <= n <= 2^31 - 1.
 
     Returns -> bool:
         True if the input is a power of two, False otherwise.
