@@ -1,7 +1,7 @@
 # python3
 # coding
 """creating on 01 03 2025
-@author Geehan Ali + ChatGPT(phind)"""
+@author Geehan Ali + ChatGPT"""
 
 from typing import Union
 
