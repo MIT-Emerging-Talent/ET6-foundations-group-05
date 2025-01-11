@@ -5,8 +5,14 @@ Even Number Checker
 =============================
 This script provides a function to check if a number is even or not.
 
-Module contents:
-is_number_even: Checks if a given number is an even number or not.
+Module for the is_number_even Function
+
+This module provides functionality to check whether a given number is even.
+Features include:
+
+1.Standard checks for typical numeric inputs.
+2.Edge case handling for unusual inputs, such as zero or negative numbers.
+3.Defensive mechanisms to manage invalid or non-numeric inputs.
 
 @author Geehan Ali
 Created on: 01-08-2025
@@ -15,7 +21,7 @@ Created on: 01-08-2025
 
 def is_number_even(number: int) -> bool:
     """
-    Check if a number is even.
+    Check if a given number is an even number or not.
 
     Arguments:
         number (int): The number to check.
