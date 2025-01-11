@@ -75,6 +75,10 @@ rules slowed early progress.
 
 - **Communication is Crucial:** Open discussions and timely help are essential
 for success.
+- **Leverage Confidence and Teamwork:** Unwavering determination, belief in oneself,
+ and strong team support enable the achievement of goals,
+  even with limited time and significant responsibilities.
+
 - **Adaptability Matters:** Being flexible and finding solutions to unexpected
 challenges ensured progress.
 - **Collaboration Wins:** Effective teamwork, even with fewer active members,
