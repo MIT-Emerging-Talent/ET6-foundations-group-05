@@ -10,9 +10,8 @@ Functions:
 Example:
     To use the `adding_two_integers` function:
 
-    >>> result = adding_two_integers(5, 7)
-    >>> print(result)
-    12
+      >>> result = adding_two_integers(5, 7)
+    >>> assert result == 12, "The result should be 12"
 """
 
 
