@@ -33,7 +33,7 @@ and we shine brighter with every step forward. 💫
 
 Let's keep growing, learning, and making a difference together! 🚀  
 
-Don't forget: **Together we shine brighter.** ✨  
+Don't forget: **Together, we shine brighter.** ✨  
 
 ![SpongeBob shining gif for motivation](notes/time-to-shine-spongebob-shine.gif)
 
