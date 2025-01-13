@@ -3,16 +3,8 @@
 """
 Even Number Checker
 =============================
-This script provides a function to check if a number is even or not.
-
-Module for the is_number_even Function
-
 This module provides functionality to check whether a given number is even.
 Features include:
-
-1.Standard checks for typical numeric inputs.
-2.Edge case handling for unusual inputs, such as zero or negative numbers.
-3.Defensive mechanisms to manage invalid or non-numeric inputs.
 
 @author Geehan Ali
 Created on: 01-08-2025
