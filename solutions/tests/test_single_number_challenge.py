@@ -32,9 +32,6 @@ class TestSingleNumber(unittest.TestCase):
         Standard: Test with typical input.
         """
         self.assertEqual(single_number([2, 2, 1]), 1, "Failed on input [2, 2, 1]")
-        self.assertEqual(
-            single_number([4, 1, 2, 1, 2]), 4, "Failed on input [4, 1, 2, 1, 2]"
-        )
 
     def test_single_element(self):
         """

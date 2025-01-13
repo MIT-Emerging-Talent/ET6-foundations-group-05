@@ -24,10 +24,19 @@ def single_number(nums):
 
     Args:
         nums (List[int]): A list of integers where all elements appear exactly twice
-                        except for one element that appears only once.
+                    except for one element that appears only once.
 
     Returns:
         int: The integer that appears only once in the input list.
+
+    Raises:
+        ValueError: If the input list is empty.
+
+    Time Complexity:
+        O(n): The function traverses the list once, where n is the length of the list.
+
+    Space Complexity:
+        O(1): The function uses a constant amount of extra space.
 
     Example:
         >>> single_number([2, 2, 1])
@@ -37,12 +46,11 @@ def single_number(nums):
         >>> single_number([1])
         1
     """
-    if not nums:  # Check if the list is empty
+    if not nums:
         raise ValueError("Input list cannot be empty")
-    # Initialize the unique number...
+
     uniq_num = 0
-    # TRaverse all elements through the loop...
     for idx in nums:
-        # Concept of XOR...
         uniq_num ^= idx
-    return uniq_num  # Return the unique number...
+
+    return uniq_num
