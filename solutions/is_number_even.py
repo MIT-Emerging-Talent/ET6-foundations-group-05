@@ -29,10 +29,16 @@ def is_number_even(number: int) -> bool:
     Returns:
         bool: True if the number is even, False otherwise.
 
+        Raises:
+        AssertionError: If the input is not an integer.
+        AssertionError: If the input is string.
+        AssertionError: If the input is None.
     Examples:
-        >>> is_even(4)
+        >>> is_number_even(4)
         True
-        >>> is_even(7)
+        >>> is_number_even(7)
+        False
+        >>> is_number_even(-3)
         False
     """
     # Input validation
