@@ -48,14 +48,14 @@ Below is a list of the current solutions available:
 | Challenge             | Description                                         |
 |-----------------------|-----------------------------------------------------|
 | [`factorial.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/24) | Determine the factorial of a given non-negative integer. |
-| [`function_adding_two_integers.py`](<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/34>) | Return the sum of the two integers. |
+| [`adding_two_integers.py`](<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/34>) | Return the sum of the two integers. |
 | [`is_number_even.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/64) | Determine whether an integer number is even. |
 | [`is_palindrome.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/30) | Check if a given integer is a palindrome.               |
 | [`is_power_of_two.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/17) | Determine if a number is a power of two.                 |
 | [`is_prime.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/26) | Check if a number is prime.                              |
 | [`longest_substring.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/44) | Find the length of the longest substring without repeating characters. |
 | [`max_profit.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/22) | Calculate the maximum profit from buying and selling a stock. |
-| [`function_single_number_challenge.py`](<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/70>) | Given a non-empty array of integers, find the single element. |
+| [`single_number.py`](<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/70>) | Given a non-empty array of integers, find the single element. |
 | [`subtract_two_numbers.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/23) | Return the difference between two numbers. |
 
 Each solution is accompanied by test cases in the  
