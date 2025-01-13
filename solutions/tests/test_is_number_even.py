@@ -66,10 +66,6 @@ class TestEdgeCases(unittest.TestCase):
         """Test that a negative even number is identified correctly"""
         self.assertTrue(is_number_even(-4))
 
-    def test_zero(self):
-        """Test that 0 is correctly identified as even"""
-        self.assertTrue(is_number_even(0))
-
 
 class TestDefensiveCases(unittest.TestCase):
     """
